@@ -1,7 +1,7 @@
 Summary: Library of graphics routines used by libgnomecanvas
 Name: libart_lgpl
 Version: 2.3.21
-Release: 7%{?dist}
+Release: 9%{?dist}
 URL: http://www.gnome.org/
 Source0: http://ftp.gnome.org/pub/gnome/sources/libart_lgpl/2.3/%{name}-%{version}.tar.bz2
 #Fedora specific patch
@@ -84,6 +84,12 @@ EOF
 %{_includedir}/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.3.21-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3.21-8
+- Mass rebuild 2013-12-27
+
 * Tue Jun 18 2013 Jochen Schmitt <Jochen herr-schmitt de> - 2.3.21-7
 - Add aarch64 as a 65-Bit architecture (#975267)
 - Add libtool as a BR
